@@ -1,4 +1,4 @@
-###### \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* **BRIEF OVERVIEW** \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+###### \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* **BRIEF OVERVIEW** \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 The focus of this project is to predict the sound velocity from CTD Measurements. Professionals widely agree that the speed of sound in the seas and oceans significantly impacts the propagation of acoustic waves. This variation can be influenced by ocean properties like temperature, salinity, and pressure, among others. This sparked my curiosity to compare the sound velocity (computed from empirical formula: UNESCO  (Chen and Miller) with the values predicted by machine learning models. 
 
@@ -15,6 +15,7 @@ The focus of this project is to predict the sound velocity from CTD Measurements
       XGBoost → 0.071, cv accuracy → 0.981 ± 0.035,
       LightGBM → 0.068, cv accuracy → 0.979 ± 0.040, and
       KNN → 0.007, cv accuracy → 0.941 ± 0.042.
+
 
 
 
