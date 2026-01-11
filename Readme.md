@@ -7,12 +7,14 @@ The focus of this project is to predict the sound velocity from CTD Measurements
 * Project Title: Sound Velocity Prediction from CTD Measurements
 * Data: CTD Measurements
 * Source: GEOMAR Helmholtz Centre (https://doi.pangaea.de/10.1594/PANGAEA.905471)
-* Aim: Predict the sound velocity (in water) using ML models
+* Aim: Predict the sound velocity (in water) using ML models and compare with empirical formula.
 * Models used: Random Forest, XGBoost, LightGBM, KNN
-* Results: The computed sound velocity values (from empirical formula) were compared with the predicted values of sound velocity. The Root Mean Squared Error (RMSE) for the models are:
+* Results: The computed sound velocity values (from empirical formula) were compared with the predicted values of sound velocity. The performance evaluation of the models are:
 
-      Random Forest model → XXXX, cross-validation accuracy → XXXX ± XXX and,
+      RandomForest → 0.127, cross-validation (cv) accuracy → 0.986 ± 0.025,
+      XGBoost → 0.071, cv accuracy → 0.981 ± 0.035,
+      LightGBM → 0.068, cv accuracy → 0.979 ± 0.040, and
+      KNN → 0.007, cv accuracy → 0.941 ± 0.042.
 
-&nbsp;     XGBoost → XXXX
 
 
