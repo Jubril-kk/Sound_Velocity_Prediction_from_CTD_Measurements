@@ -3,5 +3,7 @@ The following Python libraries were used for this project:
 Pandas
 NumPy
 Matplotlib
+Seaborn
 Scikit-learn
+
 
